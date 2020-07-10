@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="fechaDeHoyDate"></h1>
+    <h2 id="fechaDeHoyMoment"></h2>
+    <script src="momet.js"></script>
+    <script>
+        //ej1 Mostrar la fecha de hoy con el siguiente formato 2020-7-9
+
+        //Date js
+        var fechaConDate = new Date ();
+        var dia = fechaConDate.getDate ();
+        var mes = fechaConDate.getMonth () +1;
+        var año =fechaConDate.getFullYear ();
+        var mostrar = document.getElementById ("fechaDeHoyDate");
+        elementoH1.innerHTML = "Fecha con date: "+ año + '-' + mes + '-' + dia;
+
+
+        //Moment js
+        var fechaConMoment= moment().format('YYYY-M-D');
+        var mostrar2 = document.getElementById ("fechaDeHoyMoment");
+        elementoH2.innerHTML = "Fecha con Moment: " + fechaConMoment;
+
+
+        /*ej2 Crear‌ ‌una‌ ‌función‌ ‌que‌ ‌reciba‌ ‌una‌ ‌fecha‌ ‌en‌ ‌formato‌ ‌09/07/2020‌ ‌y‌ ‌valide‌ ‌que‌ ‌la‌ ‌fecha‌ ‌sea‌ ‌
+        válida.*/
+
+        //Date js
+        function validarFechaJs(dia,mes,año){
+            var fecha;
+            mes=mes-1;
+            fecha=new Date(year,month,day);
+            if ((dia==fecha.getDate()) && (mes==fecha.getMonth()) && (año==fecha.getFullYear())){
+                return alert("fecha correcta");
+            } else if (dia > 28 && mes == 2) {
+                return alert("fecha incorrecta");
+            }
+            return alert("fecha incorrecta");
+        }
+        
+
+        //Moment js
+
+
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
