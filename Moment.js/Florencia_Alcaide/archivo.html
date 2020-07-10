@@ -8,7 +8,8 @@
 <body>
     <h1 id="fechaDeHoyDate"></h1>
     <h2 id="fechaDeHoyMoment"></h2>
-    <script src="momet.js"></script>
+
+    <script src="moment.js"></script>
     <script>
         //ej1 Mostrar la fecha de hoy con el siguiente formato 2020-7-9
 
@@ -18,13 +19,13 @@
         var mes = fechaConDate.getMonth () +1;
         var año =fechaConDate.getFullYear ();
         var mostrar = document.getElementById ("fechaDeHoyDate");
-        elementoH1.innerHTML = "Fecha con date: "+ año + '-' + mes + '-' + dia;
+        mostrar.innerHTML = "Fecha con date: "+ año + '-' + mes + '-' + dia;
 
 
         //Moment js
         var fechaConMoment= moment().format('YYYY-M-D');
         var mostrar2 = document.getElementById ("fechaDeHoyMoment");
-        elementoH2.innerHTML = "Fecha con Moment: " + fechaConMoment;
+        mostrar2.innerHTML = "Fecha con Moment: " + fechaConMoment;
 
 
         /*ej2 Crear‌ ‌una‌ ‌función‌ ‌que‌ ‌reciba‌ ‌una‌ ‌fecha‌ ‌en‌ ‌formato‌ ‌09/07/2020‌ ‌y‌ ‌valide‌ ‌que‌ ‌la‌ ‌fecha‌ ‌sea‌ ‌
