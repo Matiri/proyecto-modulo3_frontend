@@ -1,0 +1,19 @@
+.main__title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*Box*/
+    padding-top: 64px;
+    padding-bottom: 48px;
+}
+.main__title-title{
+    font-size: 3.75rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.87);
+}
+.main__title-paragraph{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: grey;
+}

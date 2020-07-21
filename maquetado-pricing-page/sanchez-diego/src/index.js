@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import MainTitle from './components/MainTitle.js';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <MainTitle />
   </React.StrictMode>,
   document.getElementById('root')
 );
