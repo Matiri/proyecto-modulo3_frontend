@@ -2,10 +2,11 @@
 .Title{
   font-size: 3.75rem;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    font-weight: 300;
+    font-weight: 80;
     line-height: 1.2;
-    letter-spacing: -0.00833em;
     text-align: center;
+    color:rgb(65, 62, 62);
+    margin-bottom: 0.35em;
 
 }
 
@@ -17,6 +18,12 @@
     letter-spacing: 0em;
     text-align: center;
     box-sizing: inherit;
+    color:rgba(53, 51, 51, 0.54);
+    margin-left: 380px;
+    margin-right: 380px;
+}
+.container{
+
 }
 
 

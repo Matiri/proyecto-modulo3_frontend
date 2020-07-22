@@ -1,8 +1,8 @@
 import React from 'react';
 
-import './App.css';
+import '../Styles/MainTitle.css';
 
-class App extends React.Component {
+class MainTitle extends React.Component {
     render(){
     
         return(
@@ -14,4 +14,4 @@ class App extends React.Component {
         
     }
 }
-export default App;
+export default MainTitle;

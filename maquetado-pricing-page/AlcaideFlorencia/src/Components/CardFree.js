@@ -1,10 +1,18 @@
 import React from 'react';
+import '../Styles/CardFree.css';
 
-class Navbar extends React.Component{
+
+class CardFree extends React.Component{
     render(){
-        return{
+        return(
+            <div>
+                <h1>Free</h1>
+                
+                    <h2>$0</h2>
+                    <h4>/mo</h4>
+            </div>
 
-        }
+        )
     }
 }
-export default Navbar;
+export default CardFree;
