@@ -2,10 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
-import Header from './components/header'
+import MainPage from './pages/Main-page';
+
 
 ReactDOM.render(
-  <Header />,
+  <MainPage />,
   document.getElementById('root')
 );
 
