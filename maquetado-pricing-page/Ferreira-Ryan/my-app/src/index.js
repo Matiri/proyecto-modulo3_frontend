@@ -1,12 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+
+// IMPORT COMPONENTS
+
+import MainTitle from './components/main-title';
+import NavBar from './components/NavBar';
+import Cards from './components/Card-home';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <NavBar />
+    <MainTitle />
+    <Cards />
   </React.StrictMode>,
   document.getElementById('root')
 );
