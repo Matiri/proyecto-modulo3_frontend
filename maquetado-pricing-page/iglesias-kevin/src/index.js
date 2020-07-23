@@ -2,16 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-/*  MY IMPORTS */
-import Navbar from '../src/components/navBar.js';
-/* import Cards from '../src/components/cardsElements.js'; */
-import Title from '../src/components/mainTitle.js';
+/*  MY IMPORTS COMPONENTS */
+import Page from '../src/pages/mainPage.js';
 
 
 ReactDOM.render(
   <React.StrictMode>
-      <Navbar/>  
-      <Title pageTitle="Pricing" pageDescription="Test build an effective pricing table for your potential customers with this layout. It's built with default Material-UI components with little customization."/>
+      <Page/>
   </React.StrictMode>,
   document.getElementById('root')
 );
