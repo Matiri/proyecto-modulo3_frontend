@@ -4,11 +4,18 @@ import './index.css';
 // import App from './App';
 import * as serviceWorker from './serviceWorker';
 import MainTitle from './componentes/MainTitle';
-import Card from './componentes/Card'
+import Card from './componentes/Card';
+import NavBar from './componentes/NavBar';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Card precio=" 14 " user="10" storage="2" support="" button="sign up for free" titleCard="FREE" />
+    {/* <Card precio=" 14 " user="10" storage="2" support="" button="sign up for free" titleCard="FREE" /> */}
+    {<NavBar
+    companyName=" Company Name " 
+    navFeatures=" features " 
+    navEnterprise=" enterprise " 
+    navSupport=" support " 
+    navButtonText=" login "/>}
   </React.StrictMode>,
   document.getElementById('root')
 );
