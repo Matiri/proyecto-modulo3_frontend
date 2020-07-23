@@ -1,0 +1,13 @@
+.navBar{
+    display: flex;
+    align-items: center;
+}
+.navBar__companyName{
+    color: lightpink;
+}
+.navBar__navigation{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+}

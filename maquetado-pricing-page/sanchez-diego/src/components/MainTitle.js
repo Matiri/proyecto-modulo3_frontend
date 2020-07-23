@@ -9,7 +9,7 @@ class MainTitle extends React.Component{
                     Pricing
                 </h1>
                 <p className="main__title-paragraph">
-                Quickly build an effective pricing table for your potential customers with this layout. It's built with default Material-UI components with little customization.
+                Quickly build an effective pricing table for your potential customers with this layout.<br></br> It's built with default Material-UI components with little customization.
                 </p>
             </div>
         )

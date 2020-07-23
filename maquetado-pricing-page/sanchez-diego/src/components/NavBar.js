@@ -1,18 +1,18 @@
 import React from 'react';
-import '../style/NavBar.css';
+import '../styles/NavBar.css'
 
 class NavBar extends React.Component {
     render(){
         return(
-            <div>
-                <h1>
+            <div className="navBar">
+                <h1 className="navBar__companyName">
                     Company Name
                 </h1>
-                <a href="#">FEATURES</a>
-                <a href="#">ENTERPRISE</a>
-                <a href="#">SUPPORT</a>
+                <a className="navBar__navigation" href="#">FEATURES</a>
+                <a className="navBar__navigation" href="#">ENTERPRISE</a>
+                <a className="navBar__navigation" href="#">SUPPORT</a>
                 <form>
-                    <input type="button" value="LOGIN"></input>
+                    <input className="navBar__button" type="button" value="LOGIN"></input>
                 </form>
             </div>
         )

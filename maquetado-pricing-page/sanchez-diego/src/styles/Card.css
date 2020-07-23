@@ -1,0 +1,19 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*BoxCard*/
+    width: 120px;
+    height: 150px;
+    margin: 20px;
+}
+.card__title-box{
+    background: lightgrey;
+}
+.card__title{
+    color: red;
+}
+.card__paragraph{
+    text-align: center;
+}
