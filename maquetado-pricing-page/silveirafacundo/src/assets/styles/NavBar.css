@@ -1,0 +1,40 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: 600;
+    font-size: 20px;
+}
+li {
+    display: inline;
+    padding: 20px 10px;
+}
+li {
+    float: left;
+}
+.main__NavBar-div {
+    height: 60px;
+    background-color: rgb(255, 243, 230, 0.5);
+}
+.NavBar__first-element {
+    padding: 15px 15px;
+}
+.NavBar__last-elements {
+    font-size: 15px;
+}
+.NavBar__form {
+    padding: 1px;
+}
+.NavBar__button {
+    border-radius: 5px;
+    border: 1px solid #1976d2;
+    color: #1976d2;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 7px 15px;
+}
+.NavBar__last-elements-div {
+    float: right;
+}
