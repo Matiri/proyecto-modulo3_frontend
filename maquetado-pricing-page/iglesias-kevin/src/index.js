@@ -11,7 +11,7 @@ import Title from '../src/components/mainTitle.js';
 ReactDOM.render(
   <React.StrictMode>
       <Navbar/>  
-      <Title pageTitle="Pricing" pageDescription="Quickly build an effective pricing table for your potential customers with this layout. It's built with default Material-UI components with little customization."/>
+      <Title pageTitle="Pricing" pageDescription="Test build an effective pricing table for your potential customers with this layout. It's built with default Material-UI components with little customization."/>
   </React.StrictMode>,
   document.getElementById('root')
 );
