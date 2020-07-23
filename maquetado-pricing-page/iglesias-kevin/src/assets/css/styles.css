@@ -1,0 +1,104 @@
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/roboto/Roboto-Bold.ttf');
+}
+
+
+/* NAVBAR STYLES */
+
+.navBar-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navBar-div,  h1{
+    color: white;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 20px;
+    margin-left: 1.2rem;
+}
+
+.navBar-header{
+    background: #212121;
+    width: 100%;
+    position: sticky;
+    /* debugg */
+    /* z-index: 100; */
+}
+
+
+nav {
+    float: right; /* Desplazamos el nav hacia la izquierda */
+}
+   
+nav ul {
+    list-style: none;
+    overflow: hidden; /* Limpiamos errores de float */
+}
+   
+nav ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+   
+nav ul li a {
+    font-size: 0.875rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.login-btn{
+    background-color: transparent;
+    color: #90caf9;
+    border: 1px solid rgba(144, 202, 249, 0.5);
+    border-radius: 2px;
+    font-size: 1.0vw;
+}
+
+/* TITLE PAGE CONTAINER */
+
+.padre {
+    height: 250px;
+    /*IMPORTANTE*/
+    vertical-align: bottom;
+    display: flex;
+    justify-content: center;
+    margin-top: center;
+    align-items: center;
+  }
+  
+.hijo {
+    width: 25%;
+    text-align: center;
+}
+
+.hijo p {
+    font-size: 3.75rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: -0.00833em;
+}
+
+.hijo span{
+    background-color: red;
+    font-size: 1.5rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.334;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.7);
+}
