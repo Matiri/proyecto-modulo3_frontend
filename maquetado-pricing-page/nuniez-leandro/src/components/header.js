@@ -4,29 +4,21 @@ import '../styles/header.css';
 class Header extends React.Component {
     render() {
         return (
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <a id="" className="navbar-brand" href="#">Company name</a>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav">
-                        <li className="nav-item active">
-                            <a className="nav-link titulo" href="#"> <span class="sr-only">(current)</span></a>
+            <nav className="navbar navbar-light bg-light align-top" id="navBar">
+                <a className="navbar-brand"><b>Company name</b></a>
+                <div className="navbar ">
+                    <ul className="nav justify-content-end">
+                        <li className="nav-item">
+                            <a className="nav-link text-dark" href="#"><b>FEATURES</b></a>
+                        </li>
+                        <li className="nav">
+                            <a className="nav-link text-dark" href="#"><b>ENTERPRISE</b></a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">FEATURES</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">ENTERPRISE</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">SUPPORT</a>
-                        </li>
-                        <li className="nav-item">
-                            <button type="button" class="btn btn-light">LOGIN</button>
+                            <a className="nav-link text-dark" href="#"><b>SUPPORT</b></a>
                         </li>
                     </ul>
+                    <button type="button" class="btn btn-outline-primary"><b>LOGIN</b></button>
                 </div>
             </nav>
         )
