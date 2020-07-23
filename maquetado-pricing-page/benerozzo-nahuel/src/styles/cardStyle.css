@@ -1,0 +1,53 @@
+.mainCardDiv{
+    display: inline-block;
+    position: relative;
+    border-radius: 4px;
+    flex-grow: 0;
+    color: rgba(0, 0, 0, 0.87);
+    box-shadow: 
+    2px 4px 2px -2px rgba(0,0,0,0.2),
+    2px 2px 2px 0px rgba(0,0,0,0.14),
+    2px 2px 4px 0px rgba(0,0,0,0.12);
+    background-color: #fff;
+    width: auto;
+    max-width: 35%;
+}
+.centerCard{
+    padding: 0px 20px 10px;
+    text-align: center;
+}
+.titleCard{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.cardContent{
+    text-align: center;
+    height: auto;
+    min-width: 60%;
+    width: auto;
+}
+ul{
+    list-style: none;
+}
+.cardButton{
+    width: 100%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+
+
+    color: #1976d2;
+    border: 1px solid rgba(25, 118, 210);
+    border-radius: 4px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+    border-radius: 4px;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+}
+.buttonLink{
+    text-decoration: none;
+}

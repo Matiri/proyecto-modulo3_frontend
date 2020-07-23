@@ -4,10 +4,11 @@ import './index.css';
 // import App from './App';
 import * as serviceWorker from './serviceWorker';
 import MainTitle from './componentes/MainTitle';
+import Card from './componentes/Card'
 
 ReactDOM.render(
   <React.StrictMode>
-    <MainTitle mainTitle="Pricing" />
+    <Card precio=" 14 " user="10" storage="2" support="" button="sign up for free" titleCard="FREE" />
   </React.StrictMode>,
   document.getElementById('root')
 );
