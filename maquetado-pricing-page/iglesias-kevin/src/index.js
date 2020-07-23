@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-/*  MY IMPORTS */
+/*  MY IMPORTS COMPONENTS */
 import Navbar from '../src/components/navBar.js';
 /* import Cards from '../src/components/cardsElements.js'; */
 import Title from '../src/components/mainTitle.js';
