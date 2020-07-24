@@ -4,7 +4,7 @@ import '../styles/Header.css';
 class Header extends React.Component {
     render() {
         return (
-            <nav className="navbar navbar-light bg-light align-top" id="navBar">
+            <nav className="navbar navbar-light align-top" id="navBar">
                 <a className="navbar-brand"><b>Company name</b></a>
                 <div className="navbar ">
                     <ul className="nav justify-content-end">
