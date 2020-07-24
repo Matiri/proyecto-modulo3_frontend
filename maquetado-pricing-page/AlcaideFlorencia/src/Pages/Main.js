@@ -1,2 +1,9 @@
 import React from 'react';
-//import Title './Title';
+
+class Main extends React.Component{
+    render(){
+        return(
+            
+        )
+    }
+}
