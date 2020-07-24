@@ -10,9 +10,9 @@ class NavBar extends React.Component {
                         <ul>
                             <li className="NavBar__first-element ">Company Name</li>
                             <div className="NavBar__last-elements-div">
-                                <li className="NavBar__last-elements ">FEATURES</li>
-                                <li className="NavBar__last-elements ">ENTERPRICE</li>
-                                <li className="NavBar__last-elements ">SUPPORT</li>
+                                <li><a href="#" className="NavBar__last-elements ">FEATURES</a></li>
+                                <li><a href="#" className="NavBar__last-elements ">ENTERPRICE</a></li>
+                                <li><a href="#" className="NavBar__last-elements ">SUPPORT</a></li>
                                 <li>
                                     <form action="" className="NavBar__form ">
                                         <button type="button" className="NavBar__button">LOGIN</button>
@@ -20,9 +20,7 @@ class NavBar extends React.Component {
                                 </li>
                             </div>
                         </ul>
-                        <hr></hr>
                     </div>
-                    
                 </nav>
             </div>
         )

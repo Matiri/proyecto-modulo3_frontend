@@ -17,12 +17,17 @@ li {
 .main__NavBar-div {
     height: 60px;
     background-color: rgb(255, 243, 230, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
 .NavBar__first-element {
     padding: 15px 15px;
 }
 .NavBar__last-elements {
     font-size: 15px;
+    color: #000;
+}
+.NavBar__last-elements:hover {
+    color: #000;
 }
 .NavBar__form {
     padding: 1px;

@@ -12,8 +12,8 @@ class Card extends React.Component {
                 <div className="Card__second-div">
                     <h2 className="Card__per-month">{this.props.price}</h2>
                     <p className="Card__paragraph">{this.props.paragraph}</p>
-                    <form action="">
-                        <button type="button" className="Card__button">{this.props.button}</button>
+                    <form className="Card__form" action="">
+                        <button type="button" className="Card__button" class={this.props.class}>{this.props.button}</button>
                     </form>
                 </div>
             </div>

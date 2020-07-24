@@ -14,9 +14,21 @@ ReactDOM.render(
   <React.StrictMode>
     <NavBar />
     <MainTitle />
-    <Card title="Free" price="$0/mo" paragraph="10 users included 2 GB of storage, Help center access and Email support" button="SIGN UP FOR FREE"/>
-    <Card title="Pro" MostPopular="Most Popular" price="$15/mo" paragraph="20 users included 10 GB of storage, Help center access and Priority email support" button="GET STARTED"/>
-    <Card title="Enterprise" price="$30/mo" paragraph="50 users included 30 GB of storage, Help center access, Phone & email support" button="CONTACT US"/>
+    <div className="container">
+      <div className="row d-flex justify-content-center text-aling-center">
+        <div className="col-3">
+          <Card title="Free" price="$0/mo" paragraph="10 users included 2 GB of storage, Help center access and Email support" button="SIGN UP FOR FREE"/>
+        </div>
+        <div className="col-3">
+          <Card class="TextButton" title="Pro" MostPopular="Most Popular" price="$15/mo" paragraph="20 users included 10 GB of storage, Help center access and Priority email support" button="GET STARTED"/>
+        </div>
+        <div className="col-3">
+          <Card title="Enterprise" price="$30/mo" paragraph="50 users included 30 GB of storage, Help center access, Phone & email support" button="CONTACT US"/>
+        </div>
+        
+      </div>
+      
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
