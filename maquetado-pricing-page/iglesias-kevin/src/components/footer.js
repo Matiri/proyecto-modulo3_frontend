@@ -35,6 +35,7 @@ class Footer extends React.Component{
                             <li>Terms of use</li>
                         </ul>
                     </div>
+                    
             </footer>
         )
     }
