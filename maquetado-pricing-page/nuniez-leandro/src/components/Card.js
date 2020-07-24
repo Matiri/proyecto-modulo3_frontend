@@ -17,7 +17,7 @@ class Card extends React.Component {
                        <li>Email support</li>
                    </ul>
                 </div>
-                <a href="#" className="btn btn-primary">Go somewhere</a>
+                <button type="button" class="btn btn-outline-primary"><b>SING UP FOR FREE</b></button>
             </div>
         )
     }
