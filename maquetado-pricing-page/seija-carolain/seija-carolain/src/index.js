@@ -8,6 +8,9 @@ import MainTitle from './components/MainTitle';
 import './assets/css/MainTitle.css';
 import Card from './components/Card';
 import './assets/css/Card.css';
+import Footer from './components/Footer';
+import './assets/css/Footer.css';
+import './assets/css/CardList.css';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -55,7 +58,7 @@ ReactDOM.render(
        contentDescFour="Phone & email support"
        content = "CONCTACT US"
     />
-
+    <Footer />
     
   </React.StrictMode>,
   document.getElementById('root')
