@@ -1,14 +1,11 @@
-.cards-contain {
-    background-color: tomato;
-    display:flex;
-    flex-direction:row;
-}
+
 .cards-contain {
     width: 100%;
     background-color: rgb(12, 11, 12);
     display: flex;
     justify-content: center;
     flex-direction: row;
+    padding-top: 30px;
 }
 .card {
     background-color: rgb(66, 63, 66);
@@ -16,7 +13,7 @@
     display:flex;
     flex-direction: column;
     align-items: center;
-    width: 20%;
+    width: 25%;
 }
  .card-left {
     margin-top: 30px;
@@ -30,10 +27,36 @@
     top:0;
     width: 100%;
     height: 25%;
-    background-color:red;
     text-align: center;
+    background-color: rgb(100, 100, 100);
 }
 .text-in {
     text-align: center;
     padding: 30px 1px;
+}
+.price {
+    font-size: 45px;
+    margin-top: 0px;
+}
+
+.btn-contain {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.btn {
+    width: 75%;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid rgb(43, 43, 245);
+    border-radius: 12px;
+    color: rgb(43, 43, 245);
+}  
+
+.btn-pro {
+    background-color: rgb(43, 43, 245);
+    color: white;
 }
