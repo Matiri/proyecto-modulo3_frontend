@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Cardstyle from '../scripts/Card.css';
 
-const Card = ({ title, imgsrc, text1, price, text2, button, classnam }) => {
+const Card = ({ title, imgsrc, text1, price, text2, button, classBtnNam, classNam}) => {
     return(
-        <div className="cardContainer">
+        <div className={classNam}>
             <div className="cardHeader">
                 <h2 className="cardHeaderTitle">{title}</h2>
                 <img src={imgsrc} className="cardHeaderImg"/>
@@ -13,7 +13,7 @@ const Card = ({ title, imgsrc, text1, price, text2, button, classnam }) => {
             <div className="cardContent">
                 <h3 className="cardContentPrice">${price}<div className="cardContentPriceMonth">/mo</div></h3>
                 <p className="cardContentText">{text2}</p>
-                <input type="submit" value={button} href="#" className={classnam}></input>
+                <input type="submit" value={button} href="#" className={classBtnNam}></input>
             </div>
         </div>
     )

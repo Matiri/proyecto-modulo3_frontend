@@ -13,6 +13,7 @@ header{
 }
 footer{
     border-top: 1px solid #e0e0e0;
+    max-width: 958px;
 }
 .headerTitle{
     position: absolute;
@@ -63,13 +64,19 @@ footer{
     width: 74px;
     margin: 4px 26px 0px 0px;
 }
+.cardBtn{
+    padding: 5px 0px 5px 0px;
+    margin-top: 62px;
+}
+.cardBtnFree, .cardBtnEnter{
+    margin-top: 76px;
+}
 .cardBtnFull{
     background-color: #1976d2;
     border: none;
     text-decoration: none;
     text-shadow:none;
     color: white;
-    padding: 5px 0px 5px 0px;
     width: 100%;
     border-radius: 5px;
     height: 35px;
@@ -77,9 +84,8 @@ footer{
 .cardContainer{
     border: 1px solid #eeeeee;
     border-radius: 5px;
-    margin: 10px auto 0px auto;
-    width: 350px;
-
+    margin: 38px auto 58px auto;
+    max-width: 350px;
 }
 .cardContent{
     padding: 10px;
@@ -88,7 +94,12 @@ footer{
     padding: 15px;
     background-color: #eeeeee;
 }
-.cardHeaderSubtitle{
+.cardContentPrice{
+    font-size: 48px;
+}
+.cardContentPriceMonth{
+    font-size: 22px;
+    color: gray;
 }
 .contentTitle{
     font-size: 3.75rem;
@@ -96,11 +107,22 @@ footer{
     line-height: 1.2;
     letter-spacing: -0.00833em;
     margin: 64px 0px 22px 0px;
-
+}
+.cardPro{
+    height: 357px;
+    max-width: 278px;
+    margin: 38px 48px 0px 42px;
+}
+.cardFree, .cardEnter{
+    height: 332px;
+    max-width: 278px;
+    margin-top: 63px;
+}
+.contentCardsContainer{
+    display: inline-flex;
 }
 .contentSubtitle{
-    width: 85vw;
-    max-width: 850px;
+    max-width: 600px;
     font-size: 1.5rem;
     margin: auto;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
