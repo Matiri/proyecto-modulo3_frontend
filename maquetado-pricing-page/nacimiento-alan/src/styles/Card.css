@@ -1,8 +1,9 @@
 .Tarjeta {
     margin: auto;
-    width: 150px;
+    width: 200px;
     height: 40px;
     background-color: rgb(238, 238, 238);
+    border: solid rgba(231, 231, 231, 0.667);
 }
 
 h3{
@@ -18,3 +19,9 @@ a{  margin: auto;
 
 }
 
+.btn {
+    padding: 10px;
+    border-radius: 5px;
+    border: solid rgb(97, 121, 255);
+
+}

@@ -11,7 +11,7 @@ class Card extends React.Component{
                     {this.props.descripcion}
                 </p>
                     <from>  
-                        <a href={url}> {this.props.nombreBoton} </a>
+                        <a href={url} className="btn"> {this.props.nombreBoton} </a>
                     </from>
             </div>
         )

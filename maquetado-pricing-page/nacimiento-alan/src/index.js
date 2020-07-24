@@ -1,21 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.css'
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import  Card from "./components/Card"
+import Titulo from './components/Titulo';
+import Navbar from './components/Navbar';
 
 ReactDOM.render(
-  <Card 
-        titulo="Pro"
-        precio="$0" 
-        descripcion = 
-        "10 users included 
-        2 GB of storage
-        Help center access
-        Email support"
-        nombreBoton = "SING UP FOR FREE" 
-  />,
+  <Navbar />,
   document.getElementById('root')
 );
 
