@@ -23,3 +23,6 @@ padding-top: 48px;
     text-decoration: none;
 
 }
+a.CopyrigthLink:hover {
+    color: gray;
+  }
