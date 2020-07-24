@@ -11,7 +11,7 @@ class Footer extends React.Component{
     render(){
         return (
             <footer class="page-footer font-small">
-                <div class="container text-center text-md-left fixed-bottom main-footer">
+                <div class="container text-center fixed-bottom main-footer">
                     <div class="row">
                         <div class="col-md-3 mx-auto">
                              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Company</h5>
