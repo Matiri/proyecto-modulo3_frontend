@@ -115,5 +115,12 @@
     color: rgb(116, 116, 116);
 }
 
-button:hover {background: rgba(220, 220, 220, 0.349);}
+button:hover {
+    background: rgba(220, 220, 220, 0.349);
+}
+.TextButtonDos:hover {
+    background: rgba(0, 28, 151, 0.856);
+}
+
+
 
