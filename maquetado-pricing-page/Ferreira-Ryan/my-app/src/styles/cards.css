@@ -16,26 +16,24 @@
     display:flex;
     flex-direction: column;
     align-items: center;
+    width: 20%;
 }
  .card-left {
     margin-top: 30px;
+    margin-right: 50px;
 }
 .card-right {
     margin-top: 30px;
+    margin-left: 50px;
 } 
 .text-top {
     top:0;
     width: 100%;
     height: 25%;
     background-color:red;
-    flex-direction: column;
     text-align: center;
-
 }
 .text-in {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: justify;
-    margin:0px auto; 
+    text-align: center;
+    padding: 30px 1px;
 }

@@ -9,21 +9,11 @@ function CardHome() {
                     <h3>Free</h3>
                 </div>
                 <div className="text-in">
-                    <h1>$0/mo</h1>
-                    <div className="text-in">
-                        <p>
-                            20 users included
-                        </p>
-                        <p>
-                            10 GB of storage
-                        </p>
-                        <p>
-                            Help center access
-                        </p>
-                        <p>
-                            Priority email  support
-                        </p>
-                    </div>
+                    <p>$0/mo</p>
+                    <div><p>20 users included</p></div>
+                    <div><p>10 GB of storage</p></div>
+                    <div><p>Help center access</p></div>    
+                    <div><p>Priority email  support</p></div>
                 </div>
                 <div className="btn-contain">
                     <button className="free-btn">SIGN UP FOR FREE</button>
@@ -35,21 +25,11 @@ function CardHome() {
                     <p>Most popular</p>
                 </div>
                 <div className="text-in">
-                    <h1>$15/mo</h1>
-                    <div className="text-in">
-                        <p>
-                            20 users included
-                        </p>
-                        <p>
-                            10 GB of storage
-                        </p>
-                        <p>
-                            Help center access
-                        </p>
-                        <p>
-                            Priority email  support
-                        </p>
-                    </div>
+                    <p>$15/mo</p>
+                    <div><p> 20 users included</p></div>
+                    <div><p>10 GB of storage</p></div>
+                    <div><p>Help center access</p></div>
+                    <div><p>Priority email  support</p></div>
                 </div>
                 <div className="btn-contain">
                     <button className="free-btn">GET STARTED</button>
@@ -60,21 +40,11 @@ function CardHome() {
                     <h3>Enterprise</h3>
                 </div>
                 <div className="text-in">
-                    <h1>$15/mo</h1>
-                    <div className="text-in">
-                        <p>
-                            20 users included
-                        </p>
-                        <p>
-                            10 GB of storage
-                        </p>
-                        <p>
-                            Help center access
-                        </p>
-                        <p>
-                            Priority email  support
-                        </p>
-                    </div>
+                    <p>$15/mo</p>
+                    <div><p>20 users included</p></div>
+                    <div><p>10 GB of storage</p></div>
+                    <div><p>Help center access</p></div>
+                    <div><p>Priority email  support</p></div>
                 </div>
                 <div className="btn-contain">
                     <button className="free-btn">CONTACT US</button>
