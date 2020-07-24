@@ -14,6 +14,18 @@ header{
 footer{
     border-top: 1px solid #e0e0e0;
     max-width: 958px;
+    margin: auto;
+}
+li{
+    margin-top: 12px;
+    list-style-type: none;
+}
+ul{
+    margin: 0px;
+}
+.footerColumnsContainer{
+    display: inline-flex;
+    margin: 48px 0px 48px 0px;
 }
 .headerTitle{
     position: absolute;

@@ -28,33 +28,35 @@ function App() {
       <Card title={card3.title} price={card3.price} text2={card3.text2} button={card3.button} classNam={card3.classNam} classBtnNam={card3.classBtnNam}/>
       </div>
       <footer>
-        <h3>Company</h3>
-        <ul>
-          <a href="#"><li>Team</li></a>
-          <a href="#"><li>History</li></a>
-          <a href="#"><li>Contact us</li></a>
-          <a href="#"><li>Locations</li></a>
-        </ul>
-        <h3>Features</h3>
-        <ul>
-          <a href="#"><li>Cool stuff</li></a>
-          <a href="#"><li>Random feature</li></a>
-          <a href="#"><li>Team feature</li></a>
-          <a href="#"><li>Developer stuff</li></a>
-          <a href="#"><li>Another one</li></a>
-        </ul>
-        <h3>Resources</h3>
-        <ul>
-          <a href="#"><li>Resource</li></a>
-          <a href="#"><li>Resource name</li></a>
-          <a href="#"><li>Another resource</li></a>
-          <a href="#"><li>Final resource</li></a>
-        </ul>
-        <h3>Legal</h3>
-        <ul>
-          <a href="#"><li>Privacy policy</li></a>
-          <a href="#"><li>Terms of use</li></a>
-        </ul>
+        <div className="footerColumnsContainer">
+          <ul>
+            <h3>Company</h3>
+            <a href="#"><li>Team</li></a>
+            <a href="#"><li>History</li></a>
+            <a href="#"><li>Contact us</li></a>
+            <a href="#"><li>Locations</li></a>
+          </ul>
+          <ul>
+            <h3>Features</h3>
+            <a href="#"><li>Cool stuff</li></a>
+            <a href="#"><li>Random feature</li></a>
+            <a href="#"><li>Team feature</li></a>
+            <a href="#"><li>Developer stuff</li></a>
+            <a href="#"><li>Another one</li></a>
+          </ul>
+          <ul>
+            <h3>Resources</h3>
+            <a href="#"><li>Resource</li></a>
+            <a href="#"><li>Resource name</li></a>
+            <a href="#"><li>Another resource</li></a>
+            <a href="#"><li>Final resource</li></a>
+          </ul>
+          <ul>
+            <h3>Legal</h3> 
+            <a href="#"><li>Privacy policy</li></a>
+            <a href="#"><li>Terms of use</li></a>
+          </ul>
+        </div>
         <p>Copyright © <a href="#">Your Website</a> 2020.</p>
       </footer>
     </div>
