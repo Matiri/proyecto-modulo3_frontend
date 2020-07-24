@@ -6,7 +6,7 @@ class Card extends React.Component {
         return(
             <div className="card">
                 <div className="card__title-box">
-                    <h1 className="card__title">Free</h1>
+                    <h1 className="card__title">{this.props.cardTitle}</h1>
                 </div>
                 <h2 className="card__descrition">$0/mo</h2>
                 <p className="card__paragraph">10 users included 2 GB of storage Help center access Email support</p>
