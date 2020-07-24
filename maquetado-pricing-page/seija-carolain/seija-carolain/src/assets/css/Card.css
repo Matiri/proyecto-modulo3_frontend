@@ -42,7 +42,7 @@
 
 
 .TitleCarddif {
-    background-color: gainsboro;
+    background-color: rgba(220, 220, 220, 0.712);
     color: rgba(0, 0, 0, 0.87);
     height: 90px; 
     font-size: 15px;
@@ -57,8 +57,6 @@
     font-size: 1.5rem;
     text-align: center;
      display: block;
-    
-    
 }
 
 .Price-number {
