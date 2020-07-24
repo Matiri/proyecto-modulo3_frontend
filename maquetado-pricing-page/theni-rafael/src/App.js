@@ -7,20 +7,21 @@ const card1 = { title: "Free", imgsrc:"", text1: "", price: "0", text2: "10 user
 const card2 = { title: "Pro", imgsrc:{favImg}, text1: "Most Popular", price: "15", text2: "20 users included 10 GB of storage Help center access Priority email support", button: "GET STARTED", classnam:"cardBtnFull"}
 const card3 = { title: "Enterprise", imgsrc:"", text1: "", price: "30", text2: "50 users included 30 GB of storage Help center access Email support", button: "CONTACT US", classnam:"cardBtnEmpty"}
 
+
 function App() {
   return (
     <div>
       <header>
-        <p>Company name</p>
+        <p className="headerTitle">Company name</p>
         <div className="headerLinks">
-          <a href="#"><p>FEATURES</p></a>
-          <a href="#"><p>ENTERPRISE</p></a>
-          <a href="#"><p>SUPPORT</p></a>
-          <input type="button" value="LOGIN" href="#" className="headerLinksBtn"></input>
+          <a href="#"><p className="headerLinkItem">FEATURES</p></a>
+          <a href="#"><p className="headerLinkItem">ENTERPRISE</p></a>
+          <a href="#"><p className="headerLinkItem headerLinkItemLast">SUPPORT</p></a>
+          <input type="button" value="LOGIN" href="#" className="headerLinkBtn"></input>
         </div>
       </header>
-      <h1 className="headerTitle">Pricing</h1>
-      <h2 className="headerSubtitle">Quickly build an effective pricing table for your potential customers with this layout. It's built with default Material-UI components with little customization.</h2>
+      <h1 className="contentTitle">Pricing</h1>
+      <h2 className="contentSubtitle">Quickly build an effective pricing table for your potential customers with this layout. It's built with default Material-UI components with little customization.</h2>
       <Card title={card1.title} price={card1.price} text2={card1.text2} button={card1.button} classnam={card1.classnam}/>
       <Card title={card2.title} imgsrc={card2.imgsrc} price={card2.price} text1={card2.text1} text2={card2.text2} button={card2.button}  classnam={card2.classnam}/>
       <Card title={card3.title} price={card3.price} text2={card3.text2} button={card3.button} classnam={card3.classnam}/>
