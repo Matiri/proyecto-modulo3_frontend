@@ -8,15 +8,15 @@ import 'bootstrap/dist/css/bootstrap.css';
 // IMPORTAR COMPONENTES
 import MainTitle from './components/MainTitle.js';
 import NavBar from './components/NavBar';
-import CardFree from './components/CardFree';
-import CardPro from './components/CardPro';
+import Card from './components/Card';
 
 ReactDOM.render(
   <React.StrictMode>
     <NavBar />
     <MainTitle />
-    <CardFree />
-    <CardPro />
+    <Card title="Free" price="$0/mo" paragraph="10 users included 2 GB of storage, Help center access and Email support" button="SIGN UP FOR FREE"/>
+    <Card title="Pro" MostPopular="Most Popular" price="$15/mo" paragraph="20 users included 10 GB of storage, Help center access and Priority email support" button="GET STARTED"/>
+    <Card title="Enterprise" price="$30/mo" paragraph="50 users included 30 GB of storage, Help center access, Phone & email support" button="CONTACT US"/>
   </React.StrictMode>,
   document.getElementById('root')
 );
