@@ -4,13 +4,15 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 import NavBar from './components/NavBar';
 import './assets/css/NavBar.css'
+import MainTitle from './components/MainTitle';
+import './assets/css/MainTitle.css';
 
 ReactDOM.render(
   <React.StrictMode>
     <NavBar 
     name ="Company name"
     />
-  
+    <MainTitle />
   </React.StrictMode>,
   document.getElementById('root')
 );
