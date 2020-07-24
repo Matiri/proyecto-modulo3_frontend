@@ -1,3 +1,31 @@
 .CardPro__main-div {
     display: inline;
 }
+.CardPro__first-div, .CardPro__second-div {
+    width: 250px;
+    border: 0px solid black;
+    border-radius: 5px;
+} 
+.CardPro__first-div {
+    background-color: rgb(255, 243, 230, 0.5);
+}
+.CardPro__title {
+    padding-top: 15px;
+}
+.CardPro__status {
+    color: rgb(0, 0,  0, 0.6);
+}
+.CardPro__title, .CardPro__per-month, .CardPro__paragraph, .CardPro__button, .CardPro__status {
+    text-align: center;
+}
+.CardPro__paragraph {
+    font-size: large;
+}
+.CardPro__button {
+    border-radius: 3px;
+    border: 1px solid #1976d2;
+    background-color: #1976d2;
+    color: #fff;
+    width: 100%;
+    font-weight: 600;
+}
