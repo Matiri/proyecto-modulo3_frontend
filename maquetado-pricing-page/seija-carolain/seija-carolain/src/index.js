@@ -3,9 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import NavBar from './components/NavBar';
+import './assets/css/NavBar.css'
 
 ReactDOM.render(
   <React.StrictMode>
+    <NavBar 
+    name ="Company name"
+    />
     <App />
   </React.StrictMode>,
   document.getElementById('root')
