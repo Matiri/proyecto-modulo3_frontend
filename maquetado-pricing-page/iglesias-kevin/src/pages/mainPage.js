@@ -7,15 +7,11 @@ import '../assets/css/styles.css'
 function App() {
   return (
     <body>
-        <navbar>
-            <Navbar/>
-        </navbar>
-        <section>
-            <Title pageTitle="Pricing" pageDescription="Quickly build an effective pricing table for your potential customers with this layout. It's built with default Material-UI components with little customization."/>
-        </section>
-        <footer>
-            <Footer/>
-        </footer>
+      <section className="div-container">
+        <Navbar/>
+        <Title pageTitle="Pricing" pageDescription="Quickly build an effective pricing table for your potential customers with this layout. It's built with default Material-UI components with little customization."/>
+        <Footer/>
+      </section>
     </body>
   );
 }
