@@ -6,7 +6,6 @@ class Footer extends React.Component{
     render(){
         return (
             <footer>
-                <div className="div-container">
                     <div className="main-footer">
                         <ul>
                             <p>Company</p>
@@ -36,7 +35,6 @@ class Footer extends React.Component{
                             <li>Terms of use</li>
                         </ul>
                     </div>
-                </div>
             </footer>
         )
     }
