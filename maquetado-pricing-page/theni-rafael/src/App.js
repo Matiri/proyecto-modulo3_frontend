@@ -14,9 +14,9 @@ function App() {
       <header>
         <p className="headerTitle">Company name</p>
         <div className="headerLinks">
-          <a href="#"><p className="headerLinkItem">FEATURES</p></a>
-          <a href="#"><p className="headerLinkItem">ENTERPRISE</p></a>
-          <a href="#"><p className="headerLinkItem headerLinkItemLast">SUPPORT</p></a>
+          <a href="#" className="headerLink"><p className="headerLinkItem">FEATURES</p></a>
+          <a href="#" className="headerLink"><p className="headerLinkItem">ENTERPRISE</p></a>
+          <a href="#" className="headerLink"><p className="headerLinkItem headerLinkItemLast">SUPPORT</p></a>
           <input type="button" value="LOGIN" href="#" className="headerLinkBtn"></input>
         </div>
       </header>
