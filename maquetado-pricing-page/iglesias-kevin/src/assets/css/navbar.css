@@ -18,6 +18,10 @@
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 }
 
+.navBar-elements a:hover{
+    color: white;
+}
+
 .div-navbar-container .logIn-btn{
     color: #90caf9;
     border: 1px solid rgba(144, 202, 249, 0.5);

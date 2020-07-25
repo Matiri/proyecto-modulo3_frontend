@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/css/styles.css';
+import '../assets/css/cards.css';
 /* boostrap */
 import 'bootstrap/dist/css/bootstrap.min.css';
 import $ from 'jquery';
@@ -10,20 +10,18 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 class Cards extends React.Component{
     render(){
         return (
-        <div className="row">
-            <div className="card bg-dark">
-                <div className="card-body">
-                <h5 className="card-title">{this.props.cardType}</h5>
-                </div>
-                    <ul className="list-group list-group-flush">
-                    <h1 className="list-group">{this.props.cardPrice}</h1>
-                    <li className="list-group">{this.props.totalUsers}</li>
-                    <li className="list-group">{this.props.totalSpace}</li>
-                    <li className="list-group">{this.props.haveAssistence}</li>
-                    <li className="list-group">{this.props.emailSupp}</li>
-                    <div className="card-body list-group">
-                        <button className="registerButton">SIGN UP FOR FREE</button>
-                    </div>
+        <div class="card mb-4 box-shadow mx-auto text-center">
+            <div class="card-header">
+                <h4 class="my-1 font-weight-normal">{this.props.cardTitle}</h4>
+            </div>
+            <div class="card-body">
+                <h1 class="card-title pricing-card-title my-2">{this.props.suscriptionPrice} <small class="text-muted my-2">/ mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                    <li>{this.props.usersIncluded}</li>
+                    <li>{this.props.totalStorage}</li>
+                    <li>{this.props.emailSupport}</li>
+                    <li>{this.props.centerHelpAccs}</li>
+                    <button type="button" class="my-2 btn btn-lg btn-block">{this.props.buttonTypeMsj}</button>
                 </ul>
             </div>
         </div>
