@@ -3,10 +3,12 @@
     height: 310px;
     margin:30px;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    display: inline-block;
     
     
     
 }
+
 
 .containerFree{
     border:1px solid #eeeeee;
@@ -28,6 +30,12 @@
     font-size: 1.5rem;
     padding-top: 20px;
     font-weight: normal;
+    
+}
+p{
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.54);
+    margin-top: 3px;
     
 }
 .price-number{

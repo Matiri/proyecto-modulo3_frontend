@@ -4,13 +4,14 @@ import './index.css';
 
 
 import Footer from './Components/Footer'
+import MainCard from './Components/MainCard';
 
 
 
 
 ReactDOM.render(
     <React.StrictMode>
-        <Footer/>
+        <MainCard/>
 
 
 
