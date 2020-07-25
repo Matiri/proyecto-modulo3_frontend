@@ -1,19 +1,16 @@
+/* React */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import * as serviceWorker from './serviceWorker';
-/*  MY IMPORTS COMPONENTS */
-import Page from '../src/pages/mainPage.js';
+/* Pages */
+import Main from '../src/pages/mainPage.js';
 
 
 ReactDOM.render(
   <React.StrictMode>
-      <Page/>
+      <Main/>
   </React.StrictMode>,
   document.getElementById('root')
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();

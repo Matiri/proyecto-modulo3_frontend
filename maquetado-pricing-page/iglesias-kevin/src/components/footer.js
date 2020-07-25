@@ -42,6 +42,7 @@ class Footer extends React.Component{
                 </ul>
               </div>
             </div>
+            <p className="copy_text">Copyright © Your Website 2020.</p>
           </footer>
         )
     }

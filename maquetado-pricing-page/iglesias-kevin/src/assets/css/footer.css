@@ -4,9 +4,6 @@
     src: url('../fonts/roboto/Roboto-Bold.ttf');
 }
 
-.footer-element{
-    
-}
 
 .footer-element h5{
     color: white;
@@ -24,4 +21,8 @@
     line-height: 1.75;
     letter-spacing: 0.00938em;  
     color: rgba(255,255,255, 0.7);
+}
+
+.copy_text{
+    color: rgba(255,255,255,0.7);
 }

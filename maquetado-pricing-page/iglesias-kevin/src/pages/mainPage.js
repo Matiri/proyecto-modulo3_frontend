@@ -1,17 +1,19 @@
+/* React */
 import React from 'react';
+/* Components */
 import Title from '../components/mainTitle.js';
 import Navbar from '../components/navBar.js';
 import Footer from '../components/footer.js';
-import Card from '../components/cards.js';
-import '../assets/css/styles.css';
 import Cards from '../components/cards.js';
-/* boostrap */
+/* Styles */
+import '../assets/css/styles.css';
+/* Boostrap */
 import 'bootstrap/dist/css/bootstrap.min.css';
 import $ from 'jquery';
 import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
-function App() {
+function Pricing() {
   return (
     <body>
       <Navbar/>
@@ -26,4 +28,4 @@ function App() {
   );
 }
 
-export default App;
+export default Pricing;
