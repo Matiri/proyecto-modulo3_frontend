@@ -1,21 +1,20 @@
 * {
-    margin: 0px;
     padding: 0px;
+    margin: 0px;
 }
 .Cards {
     width: 280px;
     height: 355px;
+    background-color: #fff;
     font-size: 0.875rem;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     line-height: 1.43;
-    background-color: #fff;
+    box-shadow: 0px 1px rgba(155, 150, 150, 0.541);
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     border: rgba(220, 220, 220, 0.212);
     border-style: ridge; 
-    box-shadow: 0px 1px rgba(155, 150, 150, 0.541);
-
 }
 .CardDifferent {
     width: 290px;
@@ -24,39 +23,39 @@
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     line-height: 1.43;
     background-color: #fff;
-    box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    border: rgba(220, 220, 220, 0.212);
-    margin-top: -20px;
-    border-style: ridge; 
-    text-align: center;
     box-shadow: 0px 1px rgba(155, 150, 150, 0.541);
+    box-sizing: border-box;
+    border: rgba(220, 220, 220, 0.212);
+    border-style: ridge; 
+    margin-top: -20px;
+    text-align: center;
 }
 .TitleCard {
-    background-color: rgba(220, 220, 220, 0.712);
-    color: rgba(0, 0, 0, 0.87);
     height: 70px; 
+    background-color: #eeeeee;;
+    color: rgba(0, 0, 0, 0.87);
 }
-
 
 
 .TitleCarddif {
-    background-color: rgba(220, 220, 220, 0.712);
-    color: rgba(0, 0, 0, 0.87);
     height: 90px; 
-    font-size: 15px;
-    
-   
-    
+    color: rgba(0, 0, 0, 0.87);
+    background-color: #eeeeee;;
+    font-size: 15px;  
 }
 .TitleCard-Text {
-    padding-top: 20px; 
+    padding-top: 10px; 
     color: rgba(0, 0, 0, 0.87);
+    text-align: center;
     font-weight: normal;
     font-size: 1.5rem;
-    text-align: center;
-     display: block;
+    margin-top: -18px;
+}
+
+.divicon {
+    padding-left: 250px;
 }
 
 .Price-number {
@@ -65,7 +64,6 @@
 .Price {
     font-size: 20px;
     text-align: center;
-    
 }
 .DescriptionCard {
     color: rgba(0, 0, 0, 0.87);
@@ -96,18 +94,16 @@
     width: 100%;  
 }
 .TextButtonDos {
-    border: 1px solid rgba(0, 162, 255, 0.753);
-    border-radius: 3px;
     background-color: rgba(23, 148, 231, 0.76);
     color: white;
-    padding: 10px 85px;
-    margin-top: 8px;
+    font-size: 12px;   
     font-weight: 900;
-    font-size: 12px;
-    
+    padding: 10px 85px;
+    border: 1px solid rgba(0, 162, 255, 0.753);
+    border-radius: 3px;
+    margin-top: 8px;
 }
 .ContentParraph {
-    text-align: center;
     color: rgb(116, 116, 116);
 }
 
@@ -118,19 +114,7 @@ button:hover {
     background: rgba(0, 28, 151, 0.856);
 }
 
-
-  a.CardList-Link:hover {
+a.CardList-Link:hover {
     color: gray;
   }
  
-
-
-/*
-.icon {
-    background-color: aquamarine;
-    width: 10px;
-    height: 10px;
-    
-    margin-left: 240px;
-    margin-top: 0px;
-}*/
