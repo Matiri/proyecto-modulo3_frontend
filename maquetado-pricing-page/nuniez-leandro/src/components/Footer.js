@@ -5,7 +5,7 @@ class Footer extends React.Component {
     render() {
         return (
             <div className="pt-4 my-md-5 pt-md-5 border-top">
-                <h5>Company</h5>
+                <h5>{this.props.title}</h5>
                 <ul className="list-unstyled text-small">
                     <li>
                         <a className="text-muted" href="#">Team</a>

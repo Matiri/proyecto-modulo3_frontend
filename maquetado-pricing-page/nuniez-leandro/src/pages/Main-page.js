@@ -12,27 +12,27 @@ class MainPage extends React.Component {
                 <Title />
                 <div className="row justify-content-center m-0">
                     <div className="col-2.5">
-                        <Card />
+                        <Card title="Free" price="$0" users="10" gigas="2" email="Email" content="SING UP FOR FREE"/>
                     </div>
                     <div className="col-2.5">
-                        <Card />
+                        <Card title="Pro" price="$15" users="20" gigas="10" email="Priority email" content="GET STARTED"/>
                     </div>
                     <div className="col-2.5">
-                        <Card />
+                        <Card title="Enterprise" price="$30" users="50" gigas="30" email="Phone & email" content="CONTACT US"/>
                     </div>
                 </div>
                 <div className="row justify-content-center m-0">
                     <div className="col-2 p-0">
-                        <Footer />
+                        <Footer title="Company"/>
                     </div>
                     <div className="col-2 p-0">
-                        <Footer />
+                        <Footer title="Features"/>
                     </div>
                     <div className="col-2 p-0">
-                        <Footer />
+                        <Footer title="Resource"/>
                     </div>
                     <div className="col-2 p-0">
-                        <Footer />
+                        <Footer title="Legal"/>
                     </div>
                 </div>
             </div>
