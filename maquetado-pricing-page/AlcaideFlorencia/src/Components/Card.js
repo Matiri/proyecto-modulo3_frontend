@@ -2,6 +2,7 @@ import React from 'react';
 import '../Styles/Card.css';
 
 
+
 class Card extends React.Component{
     render(){
         return(
@@ -9,10 +10,10 @@ class Card extends React.Component{
                 <div className='container_title'>
                     <span>{this.props.title}</span>
                     
-            <div className='extra'>
+            
                         <span>{this.props.titPro}</span>
                         <p>{this.props.subtitlePro}</p>
-            </div>
+            
                 
                 </div>
                 
@@ -26,6 +27,7 @@ class Card extends React.Component{
                         <li>{this.props.ContentFour}</li>
                     </div>                
                     <button>{this.props.ContentButton}</button>
+                    
                 </div>
 
             </div>

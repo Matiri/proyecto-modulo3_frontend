@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Styles/cardList.css';
+import '../Styles/CardList.css';
 
 class CardList extends React.Component{
     render(){

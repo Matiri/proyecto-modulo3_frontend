@@ -1,5 +1,7 @@
 import React from 'react';
 import Card from './Card';
+import CardPro from './CardPro';
+
 
 
 
@@ -16,8 +18,8 @@ class MainCard extends React.Component{
                     ContentThre='Help center access'
                     ContentFour='Email support'
                     ContentButton='sing up for free'/>
-
-                    <Card  titPro='Pro'
+                
+                    <CardPro  titPro='Pro'
                     subtitlePro='Most popular'
                     price='$15'
                     priceMed='/mo'
@@ -26,6 +28,7 @@ class MainCard extends React.Component{
                     ContentThre='Help center access'
                     ContentFour='Priority email support'
                     ContentButton='get started'/>
+            
 
                     <Card title='Enterprise'
                     price='$30'

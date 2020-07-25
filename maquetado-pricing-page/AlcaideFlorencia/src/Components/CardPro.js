@@ -1,20 +1,21 @@
 import React from 'react';
-import '../Styles/CardPro.css';
+import '../Styles/cardPro.css';
+import image from '../Images/image.png'
+
 
 
 class CardPro extends React.Component{
     render(){
         return(
-            <div className='container-principal-cardPro'>
-                    
-                <div className='extra'>
-                            <span>{this.props.titPro}</span>
-                            <p>{this.props.subtitlePro}</p>
-                </div>
-                    
+            <div className='container-principal-card'>
+                <div className='container_title-pro'>
+                        <span>{this.props.titPro}</span>
+                        <p>{this.props.subtitlePro}</p>
+            
+                
                 </div>
                 
-                <div className='containerFree-Pro'>
+                <div className='containerFree'>
                         <h1 className='price-number'>{this.props.price}<span className='text-diference'>{this.props.priceMed}</span></h1>
                     
                     <div className='container-li'>
@@ -23,10 +24,11 @@ class CardPro extends React.Component{
                         <li>{this.props.ContentThre}</li>
                         <li>{this.props.ContentFour}</li>
                     </div>                
-                    <button>{this.props.ContentButton}</button>
+                    <button className='button-pro'>{this.props.ContentButton}</button>
+                    
                 </div>
-            </div>  
-            
+
+            </div>
         
             
             
