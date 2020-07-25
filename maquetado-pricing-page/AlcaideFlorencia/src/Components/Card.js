@@ -5,13 +5,14 @@ import '../Styles/Card.css';
 class Card extends React.Component{
     render(){
         return(
-            <div className='container-principal'>
+            <div className='container-principal-card'>
                 <div className='container_title'>
                     <span>{this.props.title}</span>
                     
-                    
+            <div className='extra'>
                         <span>{this.props.titPro}</span>
                         <p>{this.props.subtitlePro}</p>
+            </div>
                 
                 </div>
                 
@@ -26,7 +27,9 @@ class Card extends React.Component{
                     </div>                
                     <button>{this.props.ContentButton}</button>
                 </div>
+
             </div>
+        
             
             
             

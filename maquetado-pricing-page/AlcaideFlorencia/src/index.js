@@ -1,17 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-
-
-import Footer from './Components/Footer'
-import MainCard from './Components/MainCard';
-
-
+import Main from '../src/Pages/Main';
 
 
 ReactDOM.render(
     <React.StrictMode>
-        <MainCard/>
+        <Main/>
+        
+        
 
 
 

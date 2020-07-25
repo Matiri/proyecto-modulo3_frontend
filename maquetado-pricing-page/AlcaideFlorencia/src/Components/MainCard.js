@@ -2,6 +2,7 @@ import React from 'react';
 import Card from './Card';
 
 
+
 class MainCard extends React.Component{
     render(){
         return(

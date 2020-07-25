@@ -4,7 +4,7 @@ import  '../Styles/Navbar.css'
 class Navbar extends React.Component{
     render(){
         return(
-            <div className='container-principal'>
+            <div className='container-principal-nav'>
                 
                 <h4>Company name</h4>
 
@@ -13,7 +13,7 @@ class Navbar extends React.Component{
                         <li><a href='#'>FEATURES</a></li>
                         <li><a href='#'>ENTERPRISE</a></li>
                         <li><a href='#'>SUPPORT</a></li>
-                        <li><button>Login</button></li>
+                        <li><button className='button-nav'>Login</button></li>
                     </ul>
                     
                 </nav>
