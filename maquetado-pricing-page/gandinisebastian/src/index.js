@@ -11,14 +11,15 @@ import Header from './components/header.js';
 import Footer from './components/footer.js';
 import Cards from './components/cards.js';
 import MainTitle from './components/mainTitle.js';
+import './assets/fonts/Roboto/Roboto-Bold.ttf'
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
-    {/* <MainTitle />
+    <MainTitle />
     <Cards />
-    <Footer /> */}
-
+     <Footer />
+ 
   </React.StrictMode>,
   document.getElementById('root')
 );

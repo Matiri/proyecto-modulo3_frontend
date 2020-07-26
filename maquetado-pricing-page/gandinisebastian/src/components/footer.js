@@ -4,16 +4,48 @@ import '../assets/css/styles.css'
 class Footer extends React.Component {
     render() {
       return(
-        <div className="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-dark border-bottom box-shadow">
-        <h5 className="my-0 mr-md-auto font-weight-normal text-white">Company name</h5>
-        <nav className="my-2 my-md-0 mr-md-3">
-          <a className="p-2 text-white" href="#">Features</a>
-          <a className="p-2 text-white" href="#">Enterprise</a>
-          <a className="p-2 text-white" href="#">Support</a>
-          <a className="p-2 text-white" href="#">Pricing</a>
-        </nav>
-        <a className="btn btn-outline-primary" href="#">Sign up</a>
-      </div>
+        <div className="container footerMain">
+          <footer className="pt-4 my-md-5 pt-md-5 border-top ">
+          <div className="row mainList_footer">
+          <div className="col-6 col-md">
+            <h5 className='title_footer'>Company</h5>
+            <ul className="list-unstyled text-small">
+              <li><a className="textList_footer" href="#">Team</a></li>
+              <li><a className="textList_footer" href="#">History</a></li>
+              <li><a className="textList_footer" href="#">Contact us</a></li>
+              <li><a className="textList_footer" href="#">Locations</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5 className='title_footer'>Features</h5>
+            <ul class="list-unstyled text-small">
+              <li><a className="textList_footer" href="#">Cool stuff</a></li>
+              <li><a className="textList_footer" href="#">Random feature</a></li>
+              <li><a className="textList_footer" href="#">Team feature</a></li>
+              <li><a className="textList_footer" href="#">Developer stuff</a></li>
+              <li><a className="textList_footer" href="#">Another one</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5 className='title_footer'>Resources</h5>
+            <ul class="list-unstyled text-small">
+              <li><a className="textList_footer" href="#">Resource</a></li>
+              <li><a className="textList_footer" href="#">Resource name</a></li>
+              <li><a className="textList_footer" href="#">Another resource</a></li>
+              <li><a className="textList_footer" href="#">Final resource</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5 className='title_footer'>Legal</h5>
+            <ul class="list-unstyled text-small">
+              <li><a className="textList_footer" href="#">Privacy policy</a></li>
+              <li><a className="textList_footer" href="#">Terms of use</a></li>
+            </ul>
+          </div>
+        </div>
+        <p className="Copyright_footer">Copyright © <a className="Copyright_footer" href='#'>Your Website</a> 2020.</p>
+          </footer>
+        </div>
         )
     }
   }
