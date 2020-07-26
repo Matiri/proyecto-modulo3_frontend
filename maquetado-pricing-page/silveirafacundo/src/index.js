@@ -9,13 +9,14 @@ import 'bootstrap/dist/css/bootstrap.css';
 import MainTitle from './components/MainTitle.js';
 import NavBar from './components/NavBar';
 import Card from './components/Card';
+import Footer from './components/Footer';
 
 ReactDOM.render(
   <React.StrictMode>
     <NavBar />
     <MainTitle />
     <div className="container">
-      <div className="row d-flex justify-content-center text-aling-center">
+      <div className="row d-flex justify-content-center">
         <div className="col-3">
           <Card title="Free" price="$0/mo" paragraph="10 users included 2 GB of storage, Help center access and Email support" button="SIGN UP FOR FREE"/>
         </div>
@@ -29,6 +30,7 @@ ReactDOM.render(
       </div>
       
     </div>
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );

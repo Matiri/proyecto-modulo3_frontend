@@ -7,11 +7,13 @@ ul {
     font-weight: 600;
     font-size: 20px;
 }
-li {
+.NavBar__first-element, .NavBar__last-elements, .NavBar__button, .NavBar__last-elements-div {
     display: inline;
+}
+.NavBar__li-elements, .NavBar__first-element {
     padding: 20px 10px;
 }
-li {
+.NavBar__li-elements, .NavBar__first-element {
     float: left;
 }
 .main__NavBar-div {
