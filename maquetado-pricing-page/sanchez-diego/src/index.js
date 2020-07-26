@@ -12,6 +12,8 @@ import App from './App';
 import MainTitle from './components/MainTitle';
 import NavBar from './components/NavBar';
 import Card from './components/Card';
+import CardList from './components/CardList';
+import Footer from './components/Footer';
 //SERVICEWORKER
 import * as serviceWorker from './serviceWorker';
 
@@ -34,7 +36,7 @@ ReactDOM.render(
         </div>
       </div>
     </div>
-    
+    <Footer />
     
     
   </React.StrictMode>,
