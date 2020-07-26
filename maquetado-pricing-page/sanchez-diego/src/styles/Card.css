@@ -37,7 +37,7 @@
     color: rgba(32, 119, 218, 0.87);
     background: #FFFFFF;
     width: 90%;
-    margin: 5px;
+    margin: -10px;
 }
 form > input.card__button{
     margin-bottom: 20px;
