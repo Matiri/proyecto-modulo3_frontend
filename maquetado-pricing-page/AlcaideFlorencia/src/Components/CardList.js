@@ -28,6 +28,8 @@ class CardList extends React.Component{
                     </li>
 
                 </ul>
+                
+                
             </div>
         )
     }

@@ -4,7 +4,7 @@ import Navbar from '../Components/Navbar';
 import MainTitle from '../Components/MainTitle';
 import MainCard from '../Components/MainCard';
 import Footer from '../Components/Footer';
-
+ 
 
 
 class Main extends React.Component{

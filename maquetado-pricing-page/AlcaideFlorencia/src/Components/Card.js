@@ -26,7 +26,7 @@ class Card extends React.Component{
                         <li>{this.props.ContentThre}</li>
                         <li>{this.props.ContentFour}</li>
                     </div>                
-                    <button>{this.props.ContentButton}</button>
+                    <button type='button'>{this.props.ContentButton}</button>
                     
                 </div>
 
