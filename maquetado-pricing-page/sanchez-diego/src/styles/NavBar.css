@@ -21,10 +21,11 @@
     position: absolute;
 }
 .navBar__links {
+    color: black;
+    glyph-orientation-horizontal: inherit;
     width: 400px;
     font-weight: bold;
-    padding-top: 20px;
-    margin-left: 940px; 
+    padding-top: 20px; 
 }
 .navBar-link {
     font-size: 13px;
@@ -32,12 +33,13 @@
     color: black;
     margin: 8px 12px;
     direction: rtl;
-    text-decoration: none;
+    text-decoration: none; 
 }
-
 .navBar__button {
     color: #1976d2;
+    background: #bdb4b421;
     border: 1px solid rgba(25, 118, 210, 0.5);
+    border-radius: 5px;
     margin: 8px 12px;
     padding: 5px 15px;  
     text-decoration: none;
@@ -45,4 +47,10 @@
 
 a.navBar__link:hover {
     color: black
+}
+.navBar__link:link{
+    color: black;
+}
+.navBar__link:visited{
+    color: black;
 }
