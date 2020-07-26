@@ -4,15 +4,18 @@ import './../styles/cardStyle.css';
 class Card extends React.Component{
     render(){
         return(
-            <div className=" mainCardDiv ">
+            <div className=" mainCardDiv "className={this.props.proClass}>
                 <div className="centerCard">
-                <div className=" titleCard ">
-                    <h1>
-                        {this.props.titleCard}
-                    </h1>
+                <div className=" titleCard " >
+                    <div className="titleSpan ">
+                    <span>
+                        {this.props.titleCard} <br></br>
+                    <span className="mostPopular">{this.props.mostPopular}</span>
+                    </span>
+                    </div>
                 </div>
                 <div className=" cardContent ">
-                    <h1>$ {this.props.precio}</h1>
+                    <h1>$ {this.props.precio}<span className="opacity">/mo</span></h1>
                     <ul>
                         <li>{this.props.user} users included</li>
                         <br></br>
