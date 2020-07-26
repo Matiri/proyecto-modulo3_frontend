@@ -36,7 +36,9 @@ ReactDOM.render(
         </div>
       </div>
     </div>
-    <Footer />
+    <div className="footer_box">
+      <Footer />
+    </div>
     
     
   </React.StrictMode>,
