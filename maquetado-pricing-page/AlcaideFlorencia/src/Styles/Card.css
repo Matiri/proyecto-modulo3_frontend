@@ -1,6 +1,6 @@
 .container-principal-card{
     width: 250px;
-    height: 310px;
+    height: 300px;
     margin:20px;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     display: inline-block;
@@ -71,12 +71,5 @@ button{
     margin-top: 10px;
 }
 
-.copyright{
-    font-size: 13px;
-    text-align: center;
-    margin:40px 0px 40px 0px;
-}
-.copyright a{
-    font-size: 13px;
-}
+
 

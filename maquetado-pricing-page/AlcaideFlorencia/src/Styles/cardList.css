@@ -1,13 +1,11 @@
 .content{
     list-style: none;
     width: 230px;
-    display:inline-block;
-    
-
-
+    display: inline-table;
+    border-top: 1px solid rgb(228, 223, 223);
 }
 .List{
-    margin-top: 0px;
+    margin-top: 55px;
 }
 
 
@@ -31,3 +29,12 @@ a{
     font-size: 20px;
     margin-top: 0px;
 }
+.copyright{
+    font-size: 13px;
+    text-align: center;
+    margin:40px 0px 40px 0px;
+}
+.copyright a{
+    font-size: 13px;
+}
+
