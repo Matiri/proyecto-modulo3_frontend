@@ -1,12 +1,7 @@
-
-
-#descripcion {
-    color: #7a7a7a;
-    font-size: 25px;
-
+#pricing {
+    padding: 64px 0px 48px;
 }
 
-#titulo {
-    font-size: 60px;
-
+#descripcion {
+    color: grey;
 }
