@@ -46,9 +46,9 @@
     padding: 10px;
 }
 .navBar__button {
-    color: #1976d2;
+    color: rgba(32, 119, 218, 0.87);
     background: #bdb4b421;
-    border: 1px solid rgba(25, 118, 210, 0.5);
+    border: 1px solid rgba(32, 119, 218, 0.87);
     border-radius: 5px;
     margin: 8px 12px;
     padding: 5px 15px;  
