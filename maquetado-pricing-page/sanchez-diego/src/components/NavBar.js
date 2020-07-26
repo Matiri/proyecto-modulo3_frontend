@@ -4,7 +4,7 @@ import '../styles/NavBar.css';
 class NavBar extends React.Component{
     render(){
         return(
-            <div className="navBar__box">
+            <div className="navBar__box col-12">
                 <h6 className="navBar__nameLogo">{this.props.name}</h6>
                 <nav className="navBar__links">
                     <a className="navBar__link" href="#">FEATURES</a>
