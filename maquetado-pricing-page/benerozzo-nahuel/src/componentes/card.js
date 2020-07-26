@@ -15,7 +15,7 @@ class Card extends React.Component{
                     </div>
                 </div>
                 <div className=" cardContent ">
-                    <h1>$ {this.props.precio}<span className="opacity">/mo</span></h1>
+                    <h1 className="cardPrice">$ {this.props.precio}<span className="opacity">/mo</span></h1>
                     <ul>
                         <li>{this.props.user} users included</li>
                         <br></br>

@@ -78,3 +78,6 @@ background: white;
 .proCard{
 height: 356px;
 }
+.cardPrice{
+    font-size: 3rem;
+}
