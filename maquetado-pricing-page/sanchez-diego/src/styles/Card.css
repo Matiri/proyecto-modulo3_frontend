@@ -10,7 +10,7 @@
     height: 300px;
     margin: 20px;
     border-radius: 5px;
-    border: 1px solid rgba(199, 197, 197, 0.87);
+    border: 1px solid #eeeeee;
 }
 .card__title-secondBox,.card__title-box{
     width: 100%;
@@ -18,7 +18,7 @@
 }
 .card__title-box{
     text-align: center;
-    background: rgba(199, 197, 197, 0.87);
+    background: #eeeeee;
 }
 .card__title{
     font-weight: 300,bold;
