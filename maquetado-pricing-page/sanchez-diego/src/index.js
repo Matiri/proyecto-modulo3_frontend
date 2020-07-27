@@ -25,13 +25,13 @@ ReactDOM.render(
     <div className="component">
       <div className="row d-flex justify-content-center text-aling-center">
         <div className="col-3-md">
-          <Card cardTitle="Free" price="$0/mo" card__paragraph="10 users included 2 GB of storage Help center access Email support" button="SING UP FOR FREE"/>
+          <Card cardTitle="Free" price="0" card__paragraph="10 users included 2 GB of storage Help center access Email support" button="SING UP FOR FREE"/>
         </div>
         <div className="col-3-md">
-          <Card className="card__button-2" cardTitle="Pro" cardTitleParagraph="Most Popular" price="$15/mo" card__paragraph="20 users included 10 GB of storage Help center access Priority email support" button="GET STARTED"/>
+          <Card className="card__button-2" cardTitle="Pro" cardTitleParagraph="Most Popular" price="15" card__paragraph="20 users included 10 GB of storage Help center access Priority email support" button="GET STARTED"/>
         </div>
         <div className="col-3-md">
-          <Card cardTitle="Enterprice" price="$30/mo" card__paragraph="50 users included 30 GB of storage Help center access Phone & email support" button="CONTACT US"/>
+          <Card cardTitle="Enterprice" price="30" card__paragraph="50 users included 30 GB of storage Help center access Phone & email support" button="CONTACT US"/>
         </div>
       </div>
     </div>

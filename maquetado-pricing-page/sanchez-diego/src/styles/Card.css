@@ -26,6 +26,10 @@
     font-size: x-large;
     padding: 10px;
 }
+.card__price-spam{
+    font-size: initial;
+    color: grey;
+}
 .card__paragraph{
     text-align: center;
     padding: 20px;

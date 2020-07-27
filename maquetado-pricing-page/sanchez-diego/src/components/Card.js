@@ -11,7 +11,7 @@ class Card extends React.Component {
                         <p className="card__title-paragraph">{this.props.cardTitleParagraph}</p>
                     </div>
                     <div className="card__title-secondBox">
-                        <h2 className="card__price">{this.props.price}</h2>
+                        <h2 className="card__price">${this.props.price}<spam className="card__price-spam">/mo</spam></h2>
                         <p className="card__paragraph">{this.props.card__paragraph}</p>
                         <form>
                             <input className="card__button" type="button" value={this.props.button} />
