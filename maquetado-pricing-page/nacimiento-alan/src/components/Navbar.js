@@ -5,7 +5,7 @@ import "../styles/Navbar.css";
 class Navbar extends React.Component {
     render() {
         return (
-            <nav class="navbar navbar-light bg-light">
+            <nav class="navbar navbar-light bg-light border-bottom">
                 <a class="navbar-brand">Company name</a>
                 <div class="navbar">
                     <ul class="nav justify-content-end">
