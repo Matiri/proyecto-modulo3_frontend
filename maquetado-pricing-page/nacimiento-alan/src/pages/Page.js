@@ -11,13 +11,13 @@ class Page extends React.Component {
                 <Navbar />
                 <Titulo Titulo="Pricing" Descripcion="Quickly build an effective pricing table for your potential customers with this layout. It's built with default Material-UI components with little customization."/>
                 <div className="row justify-content-center m-0">
-                    <div className="m-3">
+                    <div className="m-3 p-3">
                         <Card category="Free" price="0" numero="10" gigas="2" contact="Email support" button="SING UP FOR FREE"/>
                     </div>
-                    <div className="m-3">
-                        <Card category="Pro" price="15" numero="20" gigas="10" contact="Priority email support" button="GET STARTED"/>
+                    <div className="m-0">
+                        <Card category="Pro" textSmall="Most popular" tamañoTitulo="tamañoTitulo" price="15" numero="20" gigas="10" contact="Priority email support" button="GET STARTED" btnEfect="btnColor"/>
                     </div>
-                    <div className="m-3">
+                    <div className="m-3 p-3">
                         <Card category="Enterprise" price="30" numero="50" gigas="30" contact="Phone & email support" button="CONTACT US"/>
                     </div>
                 </div>
