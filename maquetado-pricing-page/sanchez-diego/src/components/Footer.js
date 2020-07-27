@@ -14,7 +14,7 @@ class Footer extends React.Component {
                         <CardList cardList__title="Legal" cardList1="Privacy policy" cardList2="Terms of use"/>
                     </div>
                 </div>
-                <p className="footer__copyright">Copyright <a href="https://material-ui.com/">© Your Website</a> 2020.</p>
+                <p className="footer__copyright">Copyright <a className="footer__copyright-link" href="https://material-ui.com/">© Your Website</a> 2020.</p>
             </div>
         )
     }
