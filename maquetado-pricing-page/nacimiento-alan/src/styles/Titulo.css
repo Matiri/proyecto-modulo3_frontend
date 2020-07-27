@@ -4,4 +4,11 @@
 
 #descripcion {
     color: grey;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 25px;
+}
+#titulo { 
+    font-family: "Roboto", "Helvetica","Arial", sans-serif;
+    font-size: 65px;
+    font-weight: 300;
 }

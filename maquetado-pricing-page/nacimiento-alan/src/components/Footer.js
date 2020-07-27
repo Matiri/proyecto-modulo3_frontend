@@ -9,14 +9,13 @@ class Footer extends React.Component {
                 <div class="row">
                     <div class="col-12 col-md">
                         <div class="col-6 col-md">
-                            <h5>Features</h5>
+                            <h5>{this.props.titles}</h5>
                             <ul class="list-unstyled text-small">
-                                <li><a class="text-muted" href="#">Cool stuff</a></li>
-                                <li><a class="text-muted" href="#">Random feature</a></li>
-                                <li><a class="text-muted" href="#">Team feature</a></li>
-                                <li><a class="text-muted" href="#">Stuff for developers</a></li>
-                                <li><a class="text-muted" href="#">Another one</a></li>
-                                <li><a class="text-muted" href="#">Last time</a></li>
+                                <li><a class="text-muted" href="#">{this.props.link1}</a></li>
+                                <li><a class="text-muted" href="#">{this.props.link2}</a></li>
+                                <li><a class="text-muted" href="#">{this.props.link3}</a></li>
+                                <li><a class="text-muted" href="#">{this.props.link4}</a></li>
+                                <li><a class="text-muted" href="#">{this.props.link5}</a></li>
                             </ul>
                         </div>
                     </div>
