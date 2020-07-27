@@ -8,12 +8,14 @@ import * as serviceWorker from './serviceWorker';
 import MainTitle from './components/main-title';
 import NavBar from './components/NavBar';
 import Cards from './components/Card-home';
+import Footer from './components/Footer';
 
 ReactDOM.render(
   <React.StrictMode>
     <NavBar />
     <MainTitle />
     <Cards />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );

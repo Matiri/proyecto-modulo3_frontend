@@ -19,10 +19,15 @@ function CardHome() {
                     <button className="btn">SIGN UP FOR FREE</button>
                 </div>
             </div>
-            <div className="card-middle card">
+            <div className="card">
                 <div className="text-top">
-                    <h2>Pro</h2>
-                    <p>Most popular</p>
+                    <div class="card-middle">
+                        <div>
+                            <h2 id="h2">Pro</h2>
+                            <p>Most popular</p>
+                        </div>
+                        <img src="https://img.icons8.com/windows/22/000000/star.png"/>
+                    </div>
                 </div>
                 <div className="text-in">
                     <p className="price">$15/mo</p>

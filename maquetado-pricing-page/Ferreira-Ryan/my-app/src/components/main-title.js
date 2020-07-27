@@ -6,7 +6,7 @@ function MainTitle() {
         <div className="home-text">
             <h1 className="title">Pricing</h1>
             <div className="text">
-                <p>Qickly build an effective pricing table for your potential customers with this layout. It's build with defaultMaterial-UI components with little customization.</p>
+                <p>Qickly build an effective pricing table for your potential customers with this layout. It's build with default  Material-UI components with little customization.</p>
             </div>
         </div>
     );
