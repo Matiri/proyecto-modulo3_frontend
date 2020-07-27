@@ -1,1 +1,1 @@
-alert("Florencia estuvo aqui")
+alert("Flor estuvo aqui");
