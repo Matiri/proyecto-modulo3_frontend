@@ -1,8 +1,12 @@
 #card {
-    border: solid 1px #eeeeee;
     width: 18rem;
 }
 
 #card-title {
     background-color: #eeeeee;;
+}
+
+#button{
+    color: #fff;
+    background-color: #007bff;
 }

@@ -4,20 +4,20 @@ import '../styles/Card.css'
 class Card extends React.Component {
     render() {
         return (
-            <div className="card m-3 text-center" id="card">
-                <h5 className="card-header" id="card-title">{this.props.title}</h5>
-                <div className="card-body">
-                    <h2 className="card-title">{this.props.price}<span>/mo</span></h2>
+            <div class="card mb-4 shadow-sm text-center" id="card">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-nomal">{this.props.title}</h4>
                 </div>
-                <div>
-                   <ul className="list-unstyled mt-3 mb-4">
+                <div class="card-body">
+                    <h1 class="card-title pricing-carg-title">${this.props.price}<small class="text-muted">/mo</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
                        <li>{this.props.users} users included</li>
                        <li>{this.props.gigas} GB of storage</li>
                        <li>Help center access</li>
                        <li>{this.props.email} support</li>
                    </ul>
+                   <button type="button" class="btn btn-block btn-outline-primary" id={this.props.id}>{this.props.content}</button>
                 </div>
-                <button type="button" class="btn btn-outline-primary"><b>{this.props.content}</b></button>
             </div>
         )
     }

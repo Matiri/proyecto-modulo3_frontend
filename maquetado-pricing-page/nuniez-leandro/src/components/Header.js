@@ -8,14 +8,14 @@ class Header extends React.Component {
                 <a className="navbar-brand"><b>Company name</b></a>
                 <div className="navbar ">
                     <ul className="nav justify-content-end">
-                        <li className="nav-item">
-                            <a className="nav-link text-dark" href="#"><b>FEATURES</b></a>
+                        <li className="nav">
+                            <a className="navbar text-dark" href="#"><b>FEATURES</b></a>
                         </li>
                         <li className="nav">
-                            <a className="nav-link text-dark" href="#"><b>ENTERPRISE</b></a>
+                            <a className="navbar text-dark" href="#"><b>ENTERPRISE</b></a>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link text-dark" href="#"><b>SUPPORT</b></a>
+                        <li className="nav">
+                            <a className="navbar text-dark" href="#"><b>SUPPORT</b></a>
                         </li>
                     </ul>
                     <button type="button" class="btn btn-outline-primary"><b>LOGIN</b></button>
