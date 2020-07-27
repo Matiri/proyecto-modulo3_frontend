@@ -16,7 +16,7 @@ class Cards extends React.Component{
           <li className = 'item'>{this.props.item4}</li>
         </ul>
         <div className = 'buttonContainer'>
-          <a href = '#'><button className = 'button'>{this.props.button}</button></a>
+          <a href = '#'><button className = 'cardButton'>{this.props.button}</button></a>
         </div>
       </div>
     )
