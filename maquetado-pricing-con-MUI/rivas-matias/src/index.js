@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Header from './components/header';
+import Text from './components/text';
+import Cards from './components/cards';
+import Footer from './components/footer'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div>
+      <Header />
+      <Text />
+      <Cards />
+      <Footer />
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
