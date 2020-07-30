@@ -1,8 +1,9 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Footer from './Footer'
-import Button from '@material-ui/core/Button'
-import { Card } from '@material-ui/core';
+import {Typography} from '@material-ui/core'
+import {Link} from '@material-ui/core'
+
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -21,7 +22,8 @@ const useStyles = makeStyles((theme) => ({
 export default function PageFooter(props) {
     const classes = useStyles();
         return(
-            <div  className={classes.card}>
+<div>
+<div  className={classes.card}>
               <Footer
     footOne='Company'
     footTwo='Team'
@@ -47,8 +49,15 @@ export default function PageFooter(props) {
     footThre='Terms of use'
     />
 
-            
-            </div>
+
+ </div>
+        <div>
+            <Typography  align="center" variant='subtitle1' color="textSecondary">
+            Copyright © <Link color="textSecondary">Your Website</Link> 2020.
+            </Typography>
+        </div>
+ </div>
+
         );
     }
 

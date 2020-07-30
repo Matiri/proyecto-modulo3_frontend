@@ -51,7 +51,8 @@ export default function Footer(props) {
                
                
             </Grid>
-
+        
         </div>
+        
      );
  }

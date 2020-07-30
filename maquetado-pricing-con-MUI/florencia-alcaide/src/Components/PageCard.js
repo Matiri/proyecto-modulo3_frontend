@@ -1,9 +1,7 @@
 import React from 'react';
 import Cards from './Cards'
 import { makeStyles } from '@material-ui/core/styles';
-import Footer from './Footer'
-import Button from '@material-ui/core/Button'
-import { Card } from '@material-ui/core';
+
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -19,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-export default function Page() {
+export default function PageCard() {
     const classes = useStyles();
         return(
             <div  className={classes.card}>
