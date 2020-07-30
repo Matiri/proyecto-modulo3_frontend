@@ -31,7 +31,7 @@ button: {
   
 }));
 
-export default function ButtonAppBar() {
+export default function ButtonAppBar(props) {
   const classes = useStyles();
 
   return (
@@ -39,7 +39,7 @@ export default function ButtonAppBar() {
       <AppBar  color='default' elevation={0} borderBottom={1} >
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-            Company name
+            {props.title}
           </Typography>
           <Link className={classes.linkOne} variant="button"  color="textPrimary" href="#">
                 FEATURES
