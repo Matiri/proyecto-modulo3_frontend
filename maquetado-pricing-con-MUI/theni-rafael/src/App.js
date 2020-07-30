@@ -1,9 +1,9 @@
 import React from 'react';
+import './App.css';
 import {Button} from '@material-ui/core';
 import AppBar from '@material-ui/core/AppBar';
 import ToolBar from '@material-ui/core/ToolBar';
 import Card1 from './components/Card';
-import './App.css';
 
 function App() {
 

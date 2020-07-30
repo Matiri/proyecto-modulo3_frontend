@@ -124,12 +124,18 @@ a:hover{
 .cardHeader{
   height: 80px;
 }
-div.cardHeader:nth-child(even){
-  height: 104px;
+.cardContainer{
+  width: 327px;
+}
+.cardFree{
+  margin-right: 40px;
+}
+.cardPro{
+  margin-right: 40px;
 }
 .MuiCard-root{
-  padding: 0;
+  padding: 0px;
 }
-.MuiCardContent-root{
-  padding: 0;
+.MuiCard-root:last-child{
+  padding: 0px;
 }
