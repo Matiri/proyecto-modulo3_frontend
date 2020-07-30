@@ -36,8 +36,6 @@ function Footer() {
         linkCardTwo="Terms of use"
       />
     </div>
-
- 
   );
 }
 export default Footer;

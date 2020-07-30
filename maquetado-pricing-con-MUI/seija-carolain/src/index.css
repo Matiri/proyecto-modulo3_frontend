@@ -49,9 +49,7 @@ code {
     flex-direction: row;
 }
 .MainTitle-text {
-  
   font-size: 30px !important;
-  
 }
 .CardList-root {
   display: flex;
