@@ -4,14 +4,25 @@ import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardHeader from '@material-ui/core/CardHeader';
-import CssBaseline from '@material-ui/core/CssBaseline';
 import StarIcon from '@material-ui/icons/StarBorder';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
-import Link from '@material-ui/core/Link';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
-import Box from '@material-ui/core/Box';
+import { createMuiTheme } from '@material-ui/core/styles';
+import { ThemeProvider } from '@material-ui/styles';
+
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      main: '#ffa000',
+    },
+    secondary: {
+      main: '#2e7d32',
+    },
+  },
+});
+
 
 
  const useStyles = makeStyles((theme) => ({
@@ -39,7 +50,7 @@ import Box from '@material-ui/core/Box';
   },
   cardHeader: {
     backgroundColor:
-      theme.palette.type === 'light' ? theme.palette.grey[200] : theme.palette.grey[700],
+      theme.palette.type === 'light' ? theme.palette.grey[500] : theme.palette.grey[700],
   },
   cardPricing: {
     display: 'flex',
@@ -100,6 +111,7 @@ export default function Pricing() {
   return (
   <React.Fragment>
        <Container maxWidth="md" component="main">
+        <ThemeProvider theme={theme}>
           <Grid container spacing={5} alignItems="flex-end">
             {tiers.map((tier) => (
               // Enterprise card is full width at sm breakpoint
@@ -139,6 +151,7 @@ export default function Pricing() {
               </Grid>
             ))}
           </Grid>
+        </ThemeProvider>
       </Container>
       </React.Fragment>
       )
