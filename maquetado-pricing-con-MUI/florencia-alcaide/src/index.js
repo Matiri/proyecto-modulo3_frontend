@@ -3,14 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Navbar from './Components/Navbar';
 import MainTitle from './Components/MainTitle'
-import Page from './Components/Page'
+import PageCard from './Components/PageCard'
+import PageFooter from './Components/PageFooter';
 
 ReactDOM.render(
   <React.StrictMode>
     <Navbar title='Company name'/>
     <MainTitle/>
   
-    <Page/>
+    <PageCard/>
+    <PageFooter/>
+  
     
   </React.StrictMode>,
   document.getElementById('root')
