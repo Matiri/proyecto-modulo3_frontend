@@ -7,9 +7,6 @@ const useStyle = makeStyles({
      background: "primary",
      borderRadius: 3,
      borderColor:"primary"
-     
-     
-     
  }
 })
 
@@ -18,11 +15,9 @@ function ButtonLogin  () {
     const classes = useStyle()
     return (
         <div>
-           
             <Button className={classes.ejemplo} variant="text" color="primary" align="left">
               LOGIN
             </Button>
-           
         </div>
 
     );

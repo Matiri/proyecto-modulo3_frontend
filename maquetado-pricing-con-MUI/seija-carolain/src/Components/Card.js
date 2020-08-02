@@ -16,7 +16,6 @@ const useStyles = makeStyles(theme => ({
     height: 350,
     textAlign: 'center',
     borderColor: "gray",
-    
   },
   header: {
     textAlign: 'center',
