@@ -1,14 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Button from './Button.jsx';
+import App from './Pages/App.js';
 
 ReactDOM.render(
   <React.StrictMode>
-    <div>
-      <Button />
-    </div>    
-
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
