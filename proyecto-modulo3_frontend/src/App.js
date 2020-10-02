@@ -16,6 +16,28 @@ function App() {
   setUsers(data)
   }
 
+  useEffect(() => {
+    getUsers();
+  }, [])
+
+  const showUsers = () => {
+    if(users.length > 0){
+      users.forEach(element => {
+        return(
+            <TableRow>
+              {users.map(element => <TableCell key = {element._id}>{element.firstName}</TableCell>)}
+              {users.map(element => <TableCell key = {element._id}>{element.lastName}</TableCell>)}
+              {users.map(element => <TableCell key = {element._id}>{element.email}</TableCell>)}
+              {users.map(element => <TableCell key = {element._id}>{element.age}</TableCell>)}
+              <TableCell>
+                <Button onClick = {showFavorites}></Button>
+              </TableCell>
+            </TableRow>
+        )
+      })
+    }
+  }
+
   const showFavorites = async(e) => {
     e.preventDefault();
     const response = await fetch('http://localhost:4000/songs');
@@ -23,12 +45,8 @@ function App() {
     setSongs(data);
   }
 
-  useEffect(() => {
-    getUsers();
-  }, [])
-
   return (
-    <div className="App">
+    <div>
       <Table>
         <TableHead>
           <TableRow>
@@ -39,15 +57,7 @@ function App() {
           </TableRow>
         </TableHead>
         <TableBody>
-          <TableRow>
-          {users.map(users => <TableCell key = {users._id}>{users.firstName}</TableCell>)}
-          {users.map(users => <TableCell key = {users._id}>{users.lastName}</TableCell>)}
-          {users.map(users => <TableCell key = {users._id}>{users.email}</TableCell>)}
-          {users.map(users => <TableCell key = {users._id}>{users.age}</TableCell>)}
-          <TableCell>
-            <Button onClick = {showFavorites}></Button>
-          </TableCell>
-          </TableRow>
+          {showUsers()}
         </TableBody>
       </Table>
 
