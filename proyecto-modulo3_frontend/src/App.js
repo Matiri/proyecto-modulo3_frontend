@@ -23,12 +23,13 @@ function App() {
   const showUsers = () => {
     if(users.length > 0){
       users.forEach(element => {
-        return(
+        let newElement = Object.keys(element);
+          return(
             <TableRow>
-              {users.map(element => <TableCell key = {element._id}>{element.firstName}</TableCell>)}
-              {users.map(element => <TableCell key = {element._id}>{element.lastName}</TableCell>)}
-              {users.map(element => <TableCell key = {element._id}>{element.email}</TableCell>)}
-              {users.map(element => <TableCell key = {element._id}>{element.age}</TableCell>)}
+              {newElement.map(newElement => <TableCell key = {newElement._id}>{element[newElement].firstName}</TableCell>)}
+              {newElement.map(newElement => <TableCell key = {newElement._id}>{element[newElement].lastName}</TableCell>)}
+              {newElement.map(newElement => <TableCell key = {newElement._id}>{element[newElement].email}</TableCell>)}
+              {newElement.map(newElement => <TableCell key = {newElement._id}>{element[newElement].age}</TableCell>)}
               <TableCell>
                 <Button onClick = {showFavorites}></Button>
               </TableCell>
